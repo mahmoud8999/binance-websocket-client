@@ -82,8 +82,6 @@ The project separates the WebSocket connection, message parsing, configuration, 
 binance-websocket-client/
 ├── assets/
 │   └── binance-market-monitor.png
-├── logs/
-│   └── logfile.log
 ├── src/
 │   ├── __init__.py
 │   ├── client.py
@@ -245,7 +243,7 @@ python -m pip install -r requirements.txt
 Clone the repository:
 
 ```bash
-git clone <repository-url>
+git clone https://github.com/mahmoud8999/binance-websocket-client.git
 cd binance-websocket-client
 ```
 
